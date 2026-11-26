@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" fill="none" role="img" aria-label="Music and Instrumental Performance">
+  <defs>
+    <linearGradient id="musBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#192a20"/>
+      <stop offset="100%" stop-color="#0f1f17"/>
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffea9f"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9a781b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#musBg)"/>
+  
+  <!-- Subtle acoustic stage glow -->
+  <circle cx="400" cy="280" r="260" fill="#2d523f" opacity="0.4"/>
+  <circle cx="400" cy="280" r="180" fill="#46785e" opacity="0.25"/>
+
+  <!-- Music Staff Lines in background -->
+  <g stroke="#ffffff" stroke-opacity="0.12" stroke-width="2">
+    <line x1="80" y1="180" x2="720" y2="180"/>
+    <line x1="80" y1="205" x2="720" y2="205"/>
+    <line x1="80" y1="230" x2="720" y2="230"/>
+    <line x1="80" y1="255" x2="720" y2="255"/>
+    <line x1="80" y1="280" x2="720" y2="280"/>
+  </g>
+
+  <!-- Grand Piano & Musical Clef Silhouette Group -->
+  <g transform="translate(240, 150)">
+    <!-- Treble Clef -->
+    <path d="M160 50 C145 60, 140 85, 155 105 C170 125, 195 130, 190 160 C185 190, 155 210, 145 240 C135 270, 150 310, 180 320 C205 328, 225 310, 225 285 C225 255, 195 245, 175 255 M170 40 L170 330 C170 355, 150 370, 135 365" 
+          stroke="url(#brassGrad)" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="135" cy="365" r="14" fill="url(#brassGrad)"/>
+
+    <!-- Musical Notes floating -->
+    <g fill="url(#brassGrad)">
+      <circle cx="280" cy="120" r="12"/>
+      <rect x="290" y="70" width="4" height="50"/>
+      <circle cx="340" cy="90" r="12"/>
+      <rect x="350" y="40" width="4" height="50"/>
+      <polygon points="290,70 354,40 354,48 290,78"/>
+    </g>
+  </g>
+
+  <!-- Title overlay banner -->
+  <rect x="180" y="520" width="440" height="48" rx="8" fill="#154231" stroke="#c59b27" stroke-width="1.5"/>
+  <text x="400" y="550" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" letter-spacing="1">MUSIC &amp; ORCHESTRAL ENSEMBLE</text>
+</svg>

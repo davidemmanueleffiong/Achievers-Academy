@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achievers Academy | Excellence, Character &amp; Academic Rigour</title>
+  <meta name="description" content="Welcome to Achievers Academy. Dedicated to nurturing intellectual curiosity, disciplined character,
+    and personal excellence in a safe, inspiring educational environment.">
+  <meta name="keywords"
+    content="Achievers Academy, school, admissions, academics, education, primary school, secondary school">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Achievers Academy | Excellence, Character &amp; Wisdom">
+  <meta property="og:description"
+    content="A caring and ambitious academic community nurturing future leaders through balanced intellectual, cultural, and athletic education.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-campus.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Accessible Skip to Main Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Utility Bar (School Contact & Academic Session Notice) -->
+  <aside class="top-bar" aria-label="Quick School Contacts">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <a href="tel:+2348030192834">+234 (803) 432-8864</a>
+        </span>
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <a href="mailto:admissions@achieversacademy.edu">admissions@achieversacademy.edu</a>
+        </span>
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          <span>Mon – Fri: 7:00 AM – 2:00 PM</span>
+        </span>
+      </div>
+      <div class="top-bar-term">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Admissions Open for Next Academic Session</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <!-- School Logo / Crest -->
+      <a href="index.html" class="brand-link" aria-label="Achievers Academy Home">
+        <img src="images/logo.svg" alt="Achievers Academy Crest" class="brand-logo" width="280" height="60">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary Navigation">
+        <button id="nav-close-btn" class="nav-mobile-close" aria-label="Close navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="academics.html" class="nav-link">Academics</a></li>
+          <li class="nav-item"><a href="admissions.html" class="nav-link">Admissions</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Drawer CTA -->
+        <div style="margin-top: 2rem; display: block;" class="mobile-cta-wrap">
+          <a href="admissions.html" class="btn btn-primary btn-block">Apply for Admission</a>
+        </div>
+      </nav>
+
+      <!-- Header Action & Mobile Toggle -->
+      <div class="header-action">
+        <a href="admissions.html" class="btn btn-primary">Apply for Admission</a>
+        <button id="nav-toggle-btn" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="site-nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Backdrop -->
+  <div id="nav-backdrop" class="nav-backdrop" aria-hidden="true"></div>
+
+  <!-- Main Page Content -->
+  <main id="main-content">
+
+    <!-- Section 1: Hero Section -->
+    <section class="hero-home" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Copy -->
+          <div class="hero-content">
+            <div class="hero-pill">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span>Welcoming Inquiries for 2026/2027</span>
+            </div>
+            <h1 id="hero-heading" class="hero-title">
+              Nurturing <span class="text-gold">Character</span>, Inspiring Minds &amp; Cultivating Purpose.
+            </h1>
+            <p class="hero-text">
+              At Achievers Academy, we provide an academically challenging, supportive, and values-centred education. We
+              empower young learners to develop critical thinking, self-confidence, and a lifelong commitment to service
+              and personal growth.
+            </p>
+            <div class="hero-actions">
+              <a href="admissions.html" class="btn btn-primary btn-lg">Apply for Admission</a>
+              <a href="about.html" class="btn btn-outline-white btn-lg">Discover Our Philosophy</a>
+            </div>
+            <div class="hero-badges-row">
+              <div class="hero-badge-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+                <span>Academic Rigour &amp; Care</span>
+              </div>
+              <div class="hero-badge-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+                <span>Balanced Whole-Child Focus</span>
+              </div>
+              <div class="hero-badge-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                <span>Collaborative Community</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Media Frame -->
+          <div class="hero-media">
+            <div class="hero-image-frame">
+              <img src="images/hero-campus.jpg"
+                alt="Achievers Academy campus grounds featuring academic buildings, lawns, and tree-lined pathways"
+                width="600" height="480" fetchpriority="high">
+              <div class="hero-caption-card">
+                <h4>Inspiring Learning Environment</h4>
+                <p>Spacious, purposeful grounds designed to support focused study, athletic pursuits, and healthy social
+                  growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Educational Philosophy -->
+    <section class="section section-neutral" aria-labelledby="philosophy-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Our Guiding Principle</span>
+          <h2 id="philosophy-heading">An Education Built for the Whole Person</h2>
+          <p class="section-desc">
+            We believe true academic achievement thrives only when accompanied by moral integrity, emotional resilience,
+            and active engagement with the world around us.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <article class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Intellectual Curiosity</h3>
+            <p class="pillar-text">
+              We encourage students to ask questions, examine evidence, and explore concepts deeply, cultivating an
+              enduring enthusiasm for learning.
+            </p>
+          </article>
+
+          <!-- Pillar 2 -->
+          <article class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Character &amp; Integrity</h3>
+            <p class="pillar-text">
+              Academic success is grounded in personal honesty, empathy, respect for diverse viewpoints, and personal
+              accountability in all settings.
+            </p>
+          </article>
+
+          <!-- Pillar 3 -->
+          <article class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Purposeful Discipline</h3>
+            <p class="pillar-text">
+              We teach students how to manage their time, set realistic goals, and persist constructively through
+              challenging academic assignments.
+            </p>
+          </article>
+
+          <!-- Pillar 4 -->
+          <article class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Community &amp; Service</h3>
+            <p class="pillar-text">
+              Our students learn that their talents carry responsibility, engaging in peer mentorship and meaningful
+              community involvement.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Academics Preview (Structured Split Layout) -->
+    <section class="section" aria-labelledby="academics-preview-heading">
+      <div class="container">
+        <div class="split-layout">
+          <div class="media-card">
+            <img src="images/gallery/classroom-learning.jpg"
+              alt="Dedicated teacher instructing students in an engaged, well-lit school classroom" width="600"
+              height="400" loading="lazy">
+            <div class="media-badge">Structured Learning Pathways</div>
+          </div>
+          <div>
+            <span class="section-eyebrow">Academic Curriculum</span>
+            <h2 id="academics-preview-heading">A Balanced Curriculum Grounded in Solid Foundations</h2>
+            <p class="lead">
+              Our academic programme is structured to meet educational benchmarks while nurturing independent thought
+              and creative problem-solving.
+            </p>
+            <p>
+              From foundational literacy and numeracy to advanced laboratory sciences, humanities, and technology, our
+              classes maintain small teacher-to-student ratios to ensure personalised attention.
+            </p>
+            <ul style="list-style: none; padding-left: 0; margin-bottom: 2rem;">
+              <li style="display: flex; gap: 0.75rem; margin-bottom: 0.75rem;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#154231" stroke-width="2.5"
+                  aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Inquiry-Led Instruction:</strong> Conceptual understanding over rote memorisation.</span>
+              </li>
+              <li style="display: flex; gap: 0.75rem; margin-bottom: 0.75rem;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#154231" stroke-width="2.5"
+                  aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Regular Formative Feedback:</strong> Ongoing assessment to support each learner's
+                  pace.</span>
+              </li>
+              <li style="display: flex; gap: 0.75rem;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#154231" stroke-width="2.5"
+                  aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Broad Enrichment Options:</strong> Practical laboratory work, debating, athletics, and the
+                  arts.</span>
+              </li>
+            </ul>
+            <a href="academics.html" class="btn btn-forest">Explore Academic Offerings</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Learning Environment & Facilities -->
+    <section class="section section-neutral" aria-labelledby="environment-heading">
+      <div class="container">
+        <div class="split-layout reverse">
+          <div class="media-card">
+            <img src="images/gallery/school-library.jpg"
+              alt="School library with wooden bookshelves, reading tables, and quiet study spaces" width="600"
+              height="400" loading="lazy">
+            <div class="media-badge">Library &amp; Study Sanctuaries</div>
+          </div>
+          <div>
+            <span class="section-eyebrow">Campus &amp; Facilities</span>
+            <h2 id="environment-heading">Spaces Built for Discovery and Wellbeing</h2>
+            <p>
+              We recognise that physical surroundings significantly influence learning. Achievers Academy provides safe,
+              purposeful learning spaces tailored to support student focus and creative collaboration.
+            </p>
+            <p>
+              Our campus includes modern science laboratories, an extensive school library, quiet reading sanctuaries,
+              open athletic fields, and dedicated creative arts studios. Every facility is maintained to support health,
+              safety, and focused intellectual work.
+            </p>
+            <div style="margin-top: 1.5rem;">
+              <a href="gallery.html" class="btn btn-outline-forest">View Campus Gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Gallery Preview -->
+    <section class="section" aria-labelledby="gallery-preview-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Campus Life in Pictures</span>
+          <h2 id="gallery-preview-heading">A Glimpse into Our Daily School Life</h2>
+          <p class="section-desc">
+            Explore glimpses of our learning spaces, laboratory sessions, sports activities, and annual traditions.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1 -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="Open image: Science Laboratory Session"
+            data-category="classrooms">
+            <img src="images/gallery/science-lab.jpg"
+              alt="Students conducting experiments in modern school science laboratory" class="gallery-thumb"
+              width="400" height="300" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Classrooms &amp; Learning</span>
+              <p class="gallery-caption">Practical Science &amp; Discovery</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="Open image: Athletic Sports Grounds"
+            data-category="sports">
+            <img src="images/gallery/sports-field.jpg"
+              alt="Students participating in football and track on school sports grounds" class="gallery-thumb"
+              width="400" height="300" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Sports &amp; Athletics</span>
+              <p class="gallery-caption">Athletic Development &amp; Teamwork</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item" tabindex="0" role="button" aria-label="Open image: Annual Celebration & Awards"
+            data-category="events">
+            <img src="images/gallery/events-celebration.jpg"
+              alt="School awards ceremony and graduation assembly celebrating academic achievement"
+              class="gallery-thumb" width="400" height="300" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Events &amp; Celebrations</span>
+              <p class="gallery-caption">Annual Academic Prize Giving</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="gallery.html" class="btn btn-forest btn-lg">Browse Full School Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Admissions Call to Action Banner -->
+    <section class="section section-cream" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-content">
+            <span class="badge badge-gold" style="margin-bottom: 0.8rem;">Admissions Open</span>
+            <h2 id="cta-heading">Begin Your Child's Journey at Achievers Academy</h2>
+            <p>
+              Applications are reviewed on a rolling basis. Our admissions team is on hand to guide you through
+              admission requirements, campus tours, and enrollment timelines.
+            </p>
+          </div>
+          <div class="cta-banner-actions">
+            <a href="admissions.html" class="btn btn-primary btn-lg">Start Online Application</a>
+            <a href="contact.html" class="btn btn-outline-white">Speak with Admissions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Contact Information Preview (Editable Placeholders) -->
+    <section class="section section-neutral" aria-labelledby="home-contact-heading">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Get in Touch</span>
+          <h2 id="home-contact-heading">We Welcome Your Inquiries</h2>
+          <p class="section-desc">
+            Whether you are considering admission for your child or wish to arrange a guided visit, our administrative
+            team is here to assist.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Contact Card 1 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Campus Location</h3>
+            <p class="pillar-text">
+              168 parliamentary Extension, Cross River, Calabar.
+              <a href="https://goo.gl/maps/your-school-location" target="_blank" rel="noopener noreferrer">View on
+                Google Maps</a>
+            </p>
+          </div>
+
+          <!-- Contact Card 2 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Telephone</h3>
+            <p class="pillar-text">
+              General Inquiries: <a href="tel:+2348030192834">+234 (803) 432-8864</a><br>
+              Admissions Desk: <a href="tel:+2348030192835">+234 (803) 432-8864</a><br>
+            </p>
+          </div>
+
+          <!-- Contact Card 3 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Email Correspondence</h3>
+            <p class="pillar-text">
+              Admissions: <a href="mailto:admissions@achieversacademy.edu">admissions@achieversacademy.edu</a><br>
+              General: <a href="mailto:info@achieversacademy.edu">info@achieversacademy.edu</a><br>
+            </p>
+          </div>
+
+          <!-- Contact Card 4 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Visiting Hours</h3>
+            <p class="pillar-text">
+              Monday – Friday: 7:30 AM – 2:00 PM<br>
+              Saturday: By appointment only<br>
+              Sunday &amp; Public Holidays: Closed
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: School Brand & Overview -->
+        <div class="footer-col">
+          <img src="images/logo.svg" alt="Achievers Academy Crest" class="footer-brand-logo" width="240" height="52">
+          <p class="footer-desc">
+            Achievers Academy is an independent educational institution committed to academic rigour, moral integrity,
+            and character formation.
+          </p>
+          <div class="social-links-row">
+            <a href="#" class="social-btn" aria-label="Achievers Academy on Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Achievers Academy on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Achievers Academy on LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Academic Pathways -->
+        <div class="footer-col">
+          <h4>Academic Stages</h4>
+          <ul class="footer-links">
+            <li><a href="academics.html#early-years">Early Foundation Stage</a></li>
+            <li><a href="academics.html#primary">Primary Education</a></li>
+            <li><a href="academics.html#junior-secondary">Junior Secondary</a></li>
+            <li><a href="academics.html#senior-secondary">Senior Secondary</a></li>
+            <li><a href="academics.html#extracurricular">Extracurricular Activities</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Office -->
+        <div class="footer-col">
+          <h4>Contact &amp; Admissions</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>168 parliamentary Extension, Cross River, Calabar.</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <a href="tel:+2348030192834">+234 (803) 432-8864</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <a href="mailto:admissions@achieversacademy.edu">admissions@achieversacademy.edu</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <p>&copy; <span class="current-year">2026</span> Achievers Academy. All rights reserved.</p>
+          <p>Built and maintained by • <a href="https://davidemmanueleffiong.github.io/david-portfolio-website/"
+              target="_blank" rel="noopener noreferrer">David Emmanuel</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Control -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top of page">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

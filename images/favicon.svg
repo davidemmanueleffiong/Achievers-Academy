@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="favShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4d3a"/>
+      <stop offset="100%" stop-color="#0f3325"/>
+    </linearGradient>
+    <linearGradient id="favGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d378"/>
+      <stop offset="50%" stop-color="#c59b27"/>
+      <stop offset="100%" stop-color="#9f7717"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield with Gold Border -->
+  <path d="M32 3 C50 3, 58 11, 58 27 C58 48, 32 61, 32 61 C32 61, 6 48, 6 27 C6 11, 14 3, 32 3 Z" 
+        fill="url(#favShieldGrad)" stroke="url(#favGoldGrad)" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Book Symbol -->
+  <path d="M32 33 C27 29, 18 29, 14 31 L14 44 C18 42, 27 42, 32 46 C37 42, 46 42, 50 44 L50 31 C46 29, 37 29, 32 33 Z" 
+        fill="#ffffff"/>
+  <!-- Torch flame -->
+  <path d="M32 14 C29 18, 27 21, 29 24 C31 26, 33 26, 35 24 C37 21, 35 18, 32 14 Z" 
+        fill="url(#favGoldGrad)"/>
+</svg>
